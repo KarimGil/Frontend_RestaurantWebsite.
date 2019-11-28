@@ -1,0 +1,385 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color:#000;
+	margin:0px;
+	padding:0px
+	
+}
+
+
+
+nav
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:60px;
+	box-sizing:border-box;
+	background:#000;
+	transition:1s ease-in-out;
+}
+nav ul
+{
+	list-style:none;
+	float:right;
+	margin-right:20px;
+}
+nav ul li
+{
+	list-style:none;
+	float:left;
+	
+}
+nav ul li a
+{
+	color:#FFF;
+	text-decoration:none;
+	margin-left:60px;
+	font-size:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover
+{
+	color:#900;
+}
+.active
+{
+	color:#900;
+}
+.active1
+{
+	background:#900;
+	color:#FFF;
+	padding:5px;
+	border:solid #FFF;
+}
+.active1:hover
+{
+	color:#FFF;
+	background-color:#903;
+}
+.logo img
+{
+	width:250px;
+	height:250px;
+	position:fixed;
+	display:table-cell;
+	margin-top:-60px;
+	
+}
+
+.cover
+{
+	background-image:url(../imges/cover.jpg);
+	background-size:cover;
+	background-position:center;
+	height:660px;
+	width:100%;
+	background-attachment:fixed;
+	display:table;
+	transition:1s ease-in-out;
+	
+	
+	
+}
+h3
+{
+	font-size:56px;
+	color:black;
+	margin:0px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:100;
+	transition:1s ease-in-out;
+	
+}
+.f_R
+{
+	background-image:url(../imges/fried%20chicken.jpg);
+	background-size:cover;
+	background-position:center;
+	height:300px;
+	width:100%;
+	margin-top:8px;
+	background-attachment:fixed;
+
+	display:table;
+	transition:1s ease-in-out;
+	
+}
+
+.f_R h1
+{
+	font-size:56px;
+	color:white;
+	margin:0px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	font-family:"Courier New", Courier, monospace;
+	
+	transition:1s ease-in-out;
+	
+}
+.f_R a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+.f_R a:hover
+{
+	color:#900;
+}
+.zinger
+{
+	background-image:url(../imges/zinger.jpg);
+	background-size:cover;
+	background-position:center;
+	height:300px;
+	width:100%;
+	margin-top:8px;
+	background-attachment:fixed;
+
+	display:table;
+	transition:1s ease-in-out;
+	
+}
+
+.zinger h1
+{
+	font-size:56px;
+	color:white;
+	margin:0px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	font-family:"Courier New", Courier, monospace;
+	
+	transition:1s ease-in-out;
+	
+}
+
+
+.zinger a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+.zinger a:hover
+{
+	color:#900;
+}
+
+.M_S
+{
+	background-image:url(../imges/sandviches.jpeg);
+	background-size:cover;
+	background-position:center;
+	height:300px;
+	width:100%;
+	margin-top:8px;
+	background-attachment:fixed;
+
+	display:table;
+	transition:1s ease-in-out;
+	
+}
+
+.M_S h1
+{
+	font-size:56px;
+	color:white;
+	margin:0px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	font-family:"Courier New", Courier, monospace;
+	
+	transition:1s ease-in-out;
+	
+}
+
+
+
+.M_S a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+.M_S a:hover
+{
+	color:#900;
+}
+
+.F_F
+{
+	background-image:url(../imges/frech%20fries.jpg);
+	background-size:cover;
+	background-position:center;
+	height:300px;
+	width:100%;
+	margin-top:8px;
+	background-attachment:fixed;
+
+	display:table;
+	transition:1s ease-in-out;
+	
+}
+
+.F_F h1
+{
+	font-size:56px;
+	color:white;
+	margin:0px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	font-family:"Courier New", Courier, monospace;
+	
+	transition:1s ease-in-out;
+	
+}
+
+.F_F a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+.F_F a:hover
+{
+	color:#900;
+}
+
+.chinese
+{
+	background-image:url(../imges/chinese.jpg);
+	background-size:cover;
+	background-position:center;
+	height:300px;
+	width:100%;
+	margin-top:8px;
+	background-attachment:fixed;
+
+	display:table;
+	transition:1s ease-in-out;
+	
+}
+
+.chinese h1
+{
+	font-size:56px;
+	color:white;
+	margin:0px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	font-family:"Courier New", Courier, monospace;
+	
+	transition:1s ease-in-out;
+	
+}
+
+.chinese a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+.chinese a:hover
+{
+	color:#900;
+}
+.b_b_q
+{
+	background-image:url(../imges/bar%20b%20que.jpg);
+	background-size:cover;
+	background-position:center;
+	height:300px;
+	width:100%;
+	margin-top:8px;
+	background-attachment:fixed;
+
+	display:table;
+	transition:1s ease-in-out;
+	
+}
+
+.b_b_q h1
+{
+	font-size:56px;
+	color:white;
+	margin:0px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	font-family:"Courier New", Courier, monospace;
+	
+	transition:1s ease-in-out;
+	
+}
+
+.b_b_q a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+.b_b_q a:hover
+{
+	color:#900;
+}
+.beverages
+{
+	background-image:url(../imges/beverages.jpg);
+	background-size:cover;
+	background-position:center;
+	height:300px;
+	width:100%;
+	margin-top:8px;
+	background-attachment:fixed;
+
+	display:table;
+	transition:1s ease-in-out;
+	
+}
+
+.beverages h1
+{
+	font-size:56px;
+	color:white;
+	margin:0px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	font-family:"Courier New", Courier, monospace;
+	
+	transition:1s ease-in-out;
+	
+}
+.beverages a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+.beverages a:hover
+{
+	color:#900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image:url(../img/b.g.jpg);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0px;
+	padding:0px;
+	
+	
+	
+}
+
+
+
+nav
+{
+	//position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:60px;
+	box-sizing:border-box;
+	background:#000;
+	transition:1s ease-in-out;
+}
+nav ul
+{
+	list-style:none;
+	float:right;
+	margin-right:20px;
+}
+nav ul li
+{
+	list-style:none;
+	float:left;
+	
+}
+nav ul li a
+{
+	color:#FFF;
+	text-decoration:none;
+	margin-left:60px;
+	font-size:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover
+{
+	color:#900;
+}
+.active
+{
+	color:#900;
+}
+.active1
+{
+	background:#900;
+	color:#FFF;
+	padding:5px;
+	border:solid #FFF;
+}
+.active1:hover
+{
+	color:#FFF;
+	background-color:#903;
+}
+.logo img
+{
+	width:250px;
+	height:250px;
+	position:absolute;
+	display:table-cell;
+	margin-top:-60px;
+	
+}
+
+.cover
+{
+
+	//margin-top:250px;
+	//transform:rotate(-8deg);
+	text-align:center;
+	background:rgba(0,0,0,0.5);
+	width:500px;
+	height:250px;
+	margin: 0px auto;
+}
+
+.cover h1
+{
+	margin:0px;
+	color:#900;
+	font-size:66px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+
+}
+
+.cover h2
+{
+	margin:0px;
+	color:#FFF;
+	font-size:56px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+
+
+
+
+
+.deal
+{
+	width:90%;
+	height:1400px;
+	background:rgba(153,0,0,0.7);
+	margin:0px auto;
+	margin-bottom:50px;
+	
+}
+
+.d1
+{
+	width:550px;
+	height:250px;
+	background:#FFF;
+	//position:absolute;
+	margin-left:45px;
+	margin-top:25px;
+	float:left;
+}
+
+.d2
+{
+	width:550px;
+	height:250px;
+	background:#FFF;
+	//position:absolute;
+	margin-left:25px;
+	margin-top:25px;
+	float:left;
+}
+
+.combo
+{
+	width:170px;
+	height:40px;
+	background:#900;
+	
+	
+	
+}
+
+.combo h1
+{
+	color:#FFF;
+	font-family:"Courier New", Courier, monospace;
+	font-weight:100;
+	
+	
+}
+
+.items
+
+{
+	position:absolute;
+}
+
+.items img
+{
+	height:100px;
+	
+}
+
+.name 
+{
+	background:#FFF;
+	height:100px;
+	width:250px;
+	float:right;
+	margin-right:70px;
+	
+}
+
+.name ul li
+{
+	color:#900;
+	font-size:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	
+}
+.name h1
+{
+	color:#FFF;
+	background:#900;
+	margin:0px;
+	text-align:center;
+	width:150px;
+	margin-left:150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

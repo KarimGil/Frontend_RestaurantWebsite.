@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image:url(../img/b.g.jpg);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0px;
+	padding:0px;
+	
+	
+	
+}
+
+
+
+nav
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:60px;
+	box-sizing:border-box;
+	background:#000;
+	
+}
+nav ul
+{
+	list-style:none;
+	float:right;
+	margin-right:20px;
+}
+nav ul li
+{
+	list-style:none;
+	float:left;
+	
+}
+nav ul li a
+{
+	color:#FFF;
+	text-decoration:none;
+	margin-left:60px;
+	font-size:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover
+{
+	color:#900;
+}
+.active
+{
+	color:#900;
+}
+.active1
+{
+	background:#900;
+	color:#FFF;
+	padding:5px;
+	border:solid #FFF;
+}
+.active1:hover
+{
+	color:#FFF;
+	background-color:#903;
+}
+.logo img
+{
+	width:250px;
+	height:250px;
+	position:fixed;
+	display:table-cell;
+	margin-top:-60px;
+	
+}
+
+
+.cover
+{
+	background-image:url(../img/NBX_STILL_LIFE2-126_crop16x9.jpg);
+	background-size:cover;
+	background-position:center;
+	height:550px;
+	width:100%;
+	background-attachment:fixed;
+	display:table;
+	
+	
+	
+}
+h3
+{
+	font-size:56px;
+	color:#FFF;
+	margin:0px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:100;
+	transition:1s ease-in-out;
+	
+}
+p {color:white;}
+
+.content
+{
+	margin-top:80px;
+	font-family: 'Titillium Web', sans-serif;
+    color:white;
+}
+.content h1
+{
+
+	
+	font-size:36px;
+	text-align:center;
+	
+	color:#39C;
+	
+}
+.content p
+{
+	width:700px;
+	margin:30px auto;
+	line-height:30px;
+	text-align:center;
+	
+	
+}
+.content h2
+{
+	font-size:26px;
+	text-align:center;
+	font-weight:100;
+}
+.content h4
+{
+	color:#FFF;
+	text-align:center;
+	letter-spacing:5px;
+}
+.footer
+{
+	width:100%;
+	height:90px;
+	background:#900;
+}
